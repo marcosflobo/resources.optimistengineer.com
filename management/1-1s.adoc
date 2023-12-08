@@ -1,0 +1,20 @@
+= 1-1s
+This is the teamplate for 1 on 1 meetings with engineers. My suggestion is that the name of the file includes the date, like `2023-12-08`.
+
+
+== Action items from previous meeting
+* [x] <item 1>: <Owner> will do <whatever> by date <date>
+* [ ] <item 2>: <Owner> will do <whatever> by date <date>
+
+== Topics from <enigneer>
+* <topic 1>
+
+== Topics from <tech-lead>
+* <topic 1>
+
+== Notes
+* TODO
+
+== Action items
+* [x] <item 1>: <Owner> will do <whatever> by date <date>
+* [ ] <item 2>: <Owner> will do <whatever> by date <date>

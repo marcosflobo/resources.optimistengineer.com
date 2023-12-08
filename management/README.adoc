@@ -1,0 +1,4 @@
+= Resources for Management
+:toc:
+
+* link:1-1s.adoc[1-1s]
