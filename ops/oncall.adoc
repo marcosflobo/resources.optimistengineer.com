@@ -1,0 +1,55 @@
+= On-call Template
+:toc:
+
+_<This is the template to be used when a member of your team is on call duties. My suggestion is that the name of the file includes the purpose of the on-call session.>_
+
+*Period*: 13 Nov 2023 (Fri) , 14 Nov 2023  (Sat), 15 Nov 2023 (Sun)
+
+== On duties table
+[cols="1,1,1"]
+|===
+|Date|Timing|Person
+
+|2023/11/13
+|17:00 - 23:59 
+|Marcos Lobo
+
+|2023/11/14
+|00:00 - 23:59
+|Alice F
+
+|2023/11/15
+|00:00 - 23:59
+|Alice F
+ 
+|=== 
+
+== General info
+_<Here you describe the duties of this on-call and relevant information. For example, if you are watching a migration process from a cluster in region A to region B, you may want to have that information in this section.>_
+
+
+== Runbooks
+_<This section will contain code. The runbooks that the person on duty might need, with a short and clear description of what it solves or does. Think that the person on duty will have to operate fast, so the information should not have a complex structure>_
+
+== Known workarounds
+_<Here, as well, code. For those "know issues" and which you have a workaround in case they happen.>_
+
+
+== Observability
+_<Here you will have, in bullet points, the list of links to the relevant observability>_
+
+* Service A
+** link:http://whatever[Dashboard of <Service A>]
+** link:http://whatever[Logs <Service A>]
+* link:http://whatever[Kafka topic list in region eu-west-3]
+
+
+== Logs
+_<Here the person in duty will record the log of the session. By date, will create an entry (as bullet points) with a sort description. Really important in case there is an issue during the session, it's important to get it recorded. See the example>_
+
+`03 Nov 2023` 
+
+* 12:00 - I can see the services in Kubernetes and logs look good
+* 12:04 - Message from John about On Call expectations
+* 15:00 - Our services is not getting the Kubernetes objects
+** 15:05 - A restart of the service made it work. Logs are present link:http://awss3[here] for the postmortem.
